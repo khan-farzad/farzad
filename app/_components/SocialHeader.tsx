@@ -10,7 +10,6 @@ import {
 } from "react-icons/si";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const SocialHeader = () => {
   type HeaderProps = {
@@ -59,7 +58,7 @@ const SocialHeader = () => {
   }, []);
 
   return (
-    <header className="sticky top-0 left-0 h-16 bg-accent dark:bg-secondary p-2">
+    <header className="z-10 sticky top-0 left-0 h-16 bg-accent dark:bg-secondary p-2">
       <div className="overflow-hidden h-12 flex justify-center dark:text-txt-alt text-txt-primary items-center gap-5">
         {icons.map((i: HeaderProps, idx: number) => (
           <a
