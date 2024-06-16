@@ -74,9 +74,9 @@ const Hero = () => {
             {greet.substring(0, letterIdx)}
           </div>
           <div className="relative w-24 md:w-44">
-            I'm
+            {`I'm`}
             <div className="greet-text absolute w-full top-0 overflow-hidden text-txt-alt">
-              I'm
+            {`I'm`}
             </div>
           </div>
           <div className="relative w-[22rem] md:w-[39rem]">
