@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes swing {
+  0% {
+    rotate: 3deg;
+    scale: 0.98;
+  }
+  100% {
+    rotate: -3deg;
+    scale: 1.02;
+  }
+}
+
+.swingAnim {
+  animation: swing 2.5s ease-in-out infinite alternate;
+}

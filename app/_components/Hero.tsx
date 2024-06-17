@@ -1,4 +1,3 @@
-"use client";
 import { useGSAP } from "@gsap/react";
 import gsap, { Power1 } from "gsap";
 import { Dancing_Script } from "next/font/google";
@@ -76,7 +75,7 @@ const Hero = () => {
           <div className="relative w-24 md:w-44">
             {`I'm`}
             <div className="greet-text absolute w-full top-0 overflow-hidden text-txt-alt">
-            {`I'm`}
+              {`I'm`}
             </div>
           </div>
           <div className="relative w-[22rem] md:w-[39rem]">
