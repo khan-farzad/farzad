@@ -61,7 +61,7 @@ const SocialHeader = () => {
       <div className="overflow-hidden h-12 flex justify-center dark:text-txt-alt text-txt-primary items-center gap-5">
         {icons.map((i: HeaderProps, idx: number) => (
           <a
-            key={idx}
+            key={`social-icon-${idx}`}
             href={i.href}
             target="_blank"
             className="social-icons hover:text-secondary dark:hover:text-txt-primary"
