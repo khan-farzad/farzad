@@ -45,7 +45,7 @@ const Project = ({
                   size={24}
                   className="text-primary dark:text-txt-primary hover:text-txt-alt hover:dark:text-txt-alt"
                 />
-                <Tooltip title="Live demo" />
+                <Tooltip title="Website" />
               </div>
             </a>
             <a href={github} className="cursor-pointer">
@@ -54,7 +54,7 @@ const Project = ({
                   size={24}
                   className="hover:text-txt-alt text-primary dark:text-txt-primary hover:dark:text-txt-alt"
                 />
-                <Tooltip title="Github" />
+                <Tooltip title="Source" />
               </div>
             </a>
           </div>
@@ -102,8 +102,8 @@ const Project = ({
             </div>
             <ul
               className={`flex flex-col gap-1 h-0 list-disc list-inside ${
-                accItem1show && "min-h-[212px]"
-              } transition-[height] duration-300 overflow-y-scroll `}
+                accItem1show && "h-[212px]"
+              } transition-[height] duration-500 overflow-y-scroll `}
             >
               {features.map((feature, i) => (
                 <li key={`${name}-icon-${i}`}>{feature}</li>
